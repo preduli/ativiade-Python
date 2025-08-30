@@ -9,4 +9,17 @@ O objetivo é praticar **lógica de programação, estruturas condicionais, laç
 - Reforçar a lógica de programação em Python  
 - Exercitar estruturas condicionais (`if/else`)  
 - Praticar laços de repetição (`for`, `while`)  
-- Tr
+- Trabalhar com funções e modularização  
+- Resolver problemas propostos em sala de aula  
+
+---
+
+## 🚀 Tecnologias
+- [Python 3](https://www.python.org/)
+
+---
+
+## ▶️ Como executar
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/preduli/atividade-python.git
