@@ -1,0 +1,6 @@
+idade = int(input("informe sua idade: "))
+acomp = int(input("você está acompanhado? 1-Sim 2-Nao. "))
+if (idade >= 18) or acomp == 1:
+    print("pode entrar.")
+else:
+  print("não pode entrar.")
