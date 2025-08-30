@@ -1,0 +1,8 @@
+palavra = input("Digite uma palavra: ")
+palavra = palavra.lower()
+for i in range(len(palavra) // 2):
+    if palavra[i] != palavra[-(i + 1)]:
+        print("Não é palíndromo.")
+        break
+else:
+    print("É palíndromo!")
