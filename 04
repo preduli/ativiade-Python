@@ -1,0 +1,10 @@
+frutas = ["maça", "banana", "cereja"]
+print (frutas[1])
+frutas[0] = "kiwi"
+print (frutas)
+frutas.append("laranja")
+print(frutas)
+frutas.insert(1, "limão")
+print(frutas)
+frutas.remove("banana")
+print(frutas)
