@@ -1,0 +1,19 @@
+vento = float(input("Qual a velocidade do vento medida?: "))
+
+while vento < 0:  
+    vento = float(input("Digite uma velocidade válida: "))
+
+if 1 <= vento < 62: 
+    print("Classificado como Tempestade Fraca.")
+elif 62 <= vento <= 118:
+    print("Tempestade Tropical")
+elif 118 <= vento <= 153:
+    print("Furacão Categoria 1")
+elif 154 <= vento <= 177: 
+    print("Furacão Categoria 2")
+elif 178 <= vento <= 209: 
+    print("Furacão Categoria 3")
+elif 210 <= vento <= 249: 
+    print("Furacão Categoria 4")
+elif vento > 249: 
+    print("Furacão Categoria 5")
